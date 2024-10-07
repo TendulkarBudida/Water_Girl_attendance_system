@@ -56,6 +56,54 @@ Water Girl is a Flutter-based mobile application designed for efficient event ma
 - Utilizes SharedPreferences for local data storage
 - Follows Material Design principles for UI/UX
 
+## How to Use
+
+### 1. Login
+- Launch the app and enter your credentials on the login screen.
+- If you don't have an account, contact the system administrator for registration.
+
+### 2. Dashboard Navigation
+- Use the bottom navigation bar to switch between main features:
+  - Attendee List (left icon)
+  - Search (middle icon)
+  - QR Scanner (right icon)
+
+### 3. Managing Attendees
+- On the Attendee List screen:
+  - Scroll through the list of attendees.
+  - Use the search bar at the top to find specific attendees.
+  - For attendees without a UID, tap "Create UID" to assign one using QR code.
+
+### 4. Registering New Attendees
+- Navigate to the QR Scanner screen.
+- Scan the attendee's QR code.
+- If the attendee is not in the system, you'll be prompted to add their details.
+- Confirm the information and save to register the new attendee.
+
+### 5. Marking Attendance
+- On the QR Scanner screen, scan an attendee's QR code.
+- The attendee's information will appear on the screen.
+- Use the "Present" or "Absent" button to set their status.
+- Tap "Confirm" to save the attendance status.
+
+### 6. Searching Attendees
+- Go to the Search screen using the middle icon in the bottom navigation.
+- Type a name or email in the search bar.
+- Results will update in real-time as you type.
+- Use the buttons next to each attendee to quickly mark them as present or absent.
+
+### 7. Refreshing Data
+- To refresh the current screen's data, tap the refresh icon in the top-right corner of the app bar.
+
+### 8. Logging Out
+- To log out, tap the logout icon in the top-right corner of the app bar.
+
+### Tips
+- Ensure good lighting when scanning QR codes for best results.
+- You can toggle the flashlight on/off and switch cameras while scanning QR codes.
+- The app will automatically adjust to your device's light/dark mode settings.
+- Internet connection is required for real-time updates and synchronization.
+
 ## Getting Started
 
 1. Clone the repository
